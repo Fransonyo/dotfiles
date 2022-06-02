@@ -3,7 +3,7 @@ bindkey -v
 
 # History configuration
 HISTFILE=~/.histfile
-HISTSIZE=250
+HISTSIZE=25
 SAVEHIST=500
 
 # Compinstall configuration
