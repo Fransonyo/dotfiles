@@ -3,4 +3,4 @@ My customized `.config` files for applications powered by the GNU/Linux OS.  For
 
 # using stow
 To set up the symbolic links, do the following (where *directory* is a directory of your choice):
-`stow *directory*`
+`stow directory`
