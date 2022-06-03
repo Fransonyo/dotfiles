@@ -39,3 +39,4 @@ alias gd='git diff'
 
 # Gentoo aliases
 alias esync='emerge --sync'
+alias esrch='emerge --search'
