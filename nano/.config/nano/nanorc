@@ -1,1 +1,20 @@
+# ~/.config/nano/
+# nano configuration
+
+set autoindent
+set indicator
 set linenumbers
+set minibar
+set mouse
+set nohelp # use CTRL+G for help
+set regexp
+set softwrap
+set tabsize 4
+
+# color configuration
+set titlecolor cyan,normal
+# set statuscolor
+# set keycolor
+# set functioncolor
+# set numbercolor
+# set selectedcolor
