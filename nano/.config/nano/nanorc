@@ -1,12 +1,13 @@
 # ~/.config/nano/
 # nano configuration
+# note: use CTRL+G for help
 
 set autoindent
 set indicator
 set linenumbers
 set minibar
 set mouse
-set nohelp # use CTRL+G for help
+set nohelp 
 set regexp
 set softwrap
 set tabsize 4
