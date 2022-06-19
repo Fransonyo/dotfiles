@@ -2,20 +2,41 @@
 # nano configuration
 # note: use CTRL+G for help
 
+# set configuration
 set autoindent
 set indicator
 set linenumbers
-set minibar
 set mouse
-set nohelp 
+set nohelp
 set regexp
 set softwrap
 set tabsize 4
 
 # color configuration
-set titlecolor cyan,normal
-# set statuscolor
-# set keycolor
-# set functioncolor
-# set numbercolor
-# set selectedcolor
+set titlecolor bold,cyan,normal
+set statuscolor bold,cyan,normal
+set keycolor magenta,normal
+set functioncolor lightmagenta,normal
+set numbercolor bold,lightmagenta,normal
+
+# keybind configuration
+bind M-^ home main
+bind M-$ end main
+
+# syntax configuration
+include "/usr/share/nano/nanorc.nanorc"
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/css.nanorc"
+include "/usr/share/nano/gentoo.nanorc"
+include "/usr/share/nano/html.nanorc"
+include "/usr/share/nano/php.nanorc"
+include "/usr/share/nano/tex.nanorc"
+include "/usr/share/nano/man.nanorc"
+include "/usr/share/nano/perl.nanorc"
+include "/usr/share/nano/python.nanorc"
+include "/usr/share/nano/ruby.nanorc"
+include "/usr/share/nano/java.nanorc"
+include "/usr/share/nano/awk.nanorc"
+include "/usr/share/nano/asm.nanorc"
+include "/usr/share/nano/sh.nanorc"
+include "/usr/share/nano/xml.nanorc"
