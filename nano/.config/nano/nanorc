@@ -6,6 +6,7 @@
 set autoindent
 set indicator
 set linenumbers
+set minibar
 set mouse
 set nohelp
 set regexp
