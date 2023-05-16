@@ -8,7 +8,6 @@ set indicator
 set linenumbers
 set minibar
 set mouse
-set nohelp
 set regexp
 set softwrap
 set tabsize 4
